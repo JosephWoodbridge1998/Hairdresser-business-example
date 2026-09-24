@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Example Business — Hair Salon in Reading</title>
+<meta name="description" content="Example Business — an independent, women-run hair salon in Reading. Precision cuts, lived-in colour, personal care.">
+
+<!-- Google Fonts: elegant serif for headings, clean sans-serif for body -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome for icons (WhatsApp, menu, etc.) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="nav-inner">
+    <a href="#home" class="logo">Example <span>Business</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#products" class="nav-link">Products</a>
+      <a href="#find-us" class="nav-link">Find Us</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <!-- Buttons repeated inside mobile overlay -->
+      <div class="nav-cta-mobile">
+        <a href="#booking" class="btn btn-primary">Book Online</a>
+        <a href="https://wa.me/447400000000" target="_blank" rel="noopener" class="btn btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+    </nav>
+
+    <div class="nav-cta-desktop">
+      <a href="#booking" class="btn btn-primary">Book Online</a>
+      <a href="https://wa.me/447400000000" target="_blank" rel="noopener" class="btn btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+      </a>
+    </div>
+
+    <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <p class="eyebrow">Independent · Women-Run · Est. 2020</p>
+    <h1>Precision Cuts. Lived‑in Colour.<br>Personal Care.</h1>
+    <p class="hero-sub">A quiet, confident salon in the heart of Reading — run by women, for people who want their hair to look effortlessly like them.</p>
+    <div class="hero-ctas">
+      <a href="#booking" class="btn btn-primary btn-lg">Book Online</a>
+      <a href="https://wa.me/447400000000" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+        <i class="fa-brands fa-whatsapp"></i> Message on WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="section-inner">
+    <p class="kicker">About Us</p>
+    <h2>A salon built around your hair</h2>
+    <p class="about-text">
+      Example Business started with a simple idea: every head of hair deserves proper attention, not a rushed
+      ten-minute chat before the scissors come out. We're an independent, women-led studio, and every consultation
+      starts with listening — to how you live, how you style at home, and what "good hair day" actually means to you.
+      The result is cutting and colour that grows out well, feels like you, and doesn't need a salon visit to look right.
+    </p>
+    <p class="about-lead">Led by Alex Morgan, Founder &amp; Lead Stylist</p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-num">2020</span>
+        <span class="stat-label">Established</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">Independent</span>
+        <span class="stat-label">Salon</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">21+ yrs</span>
+        <span class="stat-label">Behind the chair</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">5.0</span>
+        <span class="stat-label">Google rating</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section section-alt" id="services">
+  <div class="section-inner">
+    <p class="kicker">Services &amp; Pricing</p>
+    <h2>A clear menu of cuts, colour, and care</h2>
+    <p class="section-sub">Every price is a starting point — your stylist will confirm the exact cost at consultation.</p>
+
+    <div class="menu-grid">
+
+      <div class="menu-category">
+        <h3 class="menu-cat-title">Cutting</h3>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Cut &amp; Blow Dry (Ladies)</span><span class="menu-desc">Consultation, precision cut, full blow dry finish.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">45 min</span><span class="menu-price">from £56</span></div>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Men's Wash &amp; Cut</span><span class="menu-desc">Wash, cut and style to finish.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">45 min</span><span class="menu-price">from £35</span></div>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Students Female (under 25)</span><span class="menu-desc">Full ladies cut &amp; blow dry, student rate.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">45 min</span><span class="menu-price">from £45</span></div>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Students Male (under 25)</span><span class="menu-desc">Wash &amp; cut, student rate.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">30 min</span><span class="menu-price">from £31</span></div>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Children</span><span class="menu-desc">Gentle, patient cuts for younger clients.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">30 min</span><span class="menu-price">from £30</span></div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3 class="menu-cat-title">Styling</h3>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Blow Dry</span><span class="menu-desc">Wash and professional blow dry finish.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">30 min</span><span class="menu-price">from £30</span></div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3 class="menu-cat-title">Treatments</h3>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Hair Treatments</span><span class="menu-desc">Deep conditioning add-on for dry or damaged hair.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">15 min</span><span class="menu-price">from £17</span></div>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">True Keratin Professional</span><span class="menu-desc">Smoothing treatment for frizz-free, manageable hair.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">3 hr</span><span class="menu-price">from £160</span></div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3 class="menu-cat-title">Colour</h3>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Full Head Highlights</span><span class="menu-desc">All-over foils for maximum dimension.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">1 hr 45 min</span><span class="menu-price">from £136</span></div>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Half Head Highlights</span><span class="menu-desc">Foils through the top and sides.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">1 hr 30 min</span><span class="menu-price">from £93</span></div>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Partial Highlights</span><span class="menu-desc">Face-framing foils for a subtle lift.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">1 hr 15 min</span><span class="menu-price">from £62</span></div>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Full Head Tint</span><span class="menu-desc">All-over single-process colour.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">1 hr 15 min</span><span class="menu-price">from £55</span></div>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Re-growth Tint</span><span class="menu-desc">Root colour to match your existing shade.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">1 hr</span><span class="menu-price">from £50</span></div>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Fashion Colour</span><span class="menu-desc">Bold or creative colour, tailored in consultation.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">1 hr 30 min</span><span class="menu-price">£62</span></div>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Toner</span><span class="menu-desc">Refresh tone and neutralise brassiness.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">15 min</span><span class="menu-price">£23</span></div>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Colour Correction</span><span class="menu-desc">Fixing previous colour work, fully tailored.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">45 min</span><span class="menu-price">from £100</span></div>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><span class="menu-name">Colour Correction Consultation</span><span class="menu-desc">In-depth chat before any correction work begins.</span></div>
+          <div class="menu-row-meta"><span class="menu-time">30 min</span><span class="menu-price">Free</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRODUCTS ============ -->
+<section class="section" id="products">
+  <div class="section-inner">
+    <p class="kicker">Take It Home</p>
+    <h2>Take it home</h2>
+    <p class="section-sub">The professional lines we use and trust — sold in-store.</p>
+
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="product-img" aria-hidden="true"><i class="fa-solid fa-pump-soap"></i></div>
+        <h3>Shampoo</h3>
+        <p>A sulphate-free daily cleanse suited to coloured and natural hair.</p>
+        <a href="https://wa.me/447400000000?text=Hi!%20I'd%20like%20to%20ask%20about%20the%20Shampoo." target="_blank" rel="noopener" class="btn btn-outline btn-sm">Ask on WhatsApp</a>
+      </div>
+      <div class="product-card">
+        <div class="product-img" aria-hidden="true"><i class="fa-solid fa-bottle-droplet"></i></div>
+        <h3>Conditioner</h3>
+        <p>Lightweight conditioning that keeps colour vibrant for longer.</p>
+        <a href="https://wa.me/447400000000?text=Hi!%20I'd%20like%20to%20ask%20about%20the%20Conditioner." target="_blank" rel="noopener" class="btn btn-outline btn-sm">Ask on WhatsApp</a>
+      </div>
+      <div class="product-card">
+        <div class="product-img" aria-hidden="true"><i class="fa-solid fa-flask"></i></div>
+        <h3>Treatment</h3>
+        <p>A weekly deep-repair mask for dry ends and over-processed hair.</p>
+        <a href="https://wa.me/447400000000?text=Hi!%20I'd%20like%20to%20ask%20about%20the%20Treatment." target="_blank" rel="noopener" class="btn btn-outline btn-sm">Ask on WhatsApp</a>
+      </div>
+      <div class="product-card">
+        <div class="product-img" aria-hidden="true"><i class="fa-solid fa-wind"></i></div>
+        <h3>Styling</h3>
+        <p>Heat-protecting spray and finishing serum for a salon-fresh look.</p>
+        <a href="https://wa.me/447400000000?text=Hi!%20I'd%20like%20to%20ask%20about%20Styling%20products." target="_blank" rel="noopener" class="btn btn-outline btn-sm">Ask on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOOKING ============ -->
+<section class="section section-alt" id="booking">
+  <div class="section-inner">
+    <p class="kicker">Book Online</p>
+    <h2>Book your appointment</h2>
+    <p class="section-sub">Choose your service, pick a time, and we'll confirm by WhatsApp or email.</p>
+
+    <form class="booking-form" id="bookingForm" novalidate>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="bkName">Name</label>
+          <input type="text" id="bkName" name="name" required placeholder="Your full name">
+          <span class="form-error" id="err-bkName">Please enter your name.</span>
+        </div>
+        <div class="form-group">
+          <label for="bkEmail">Email</label>
+          <input type="email" id="bkEmail" name="email" required placeholder="you@example.com">
+          <span class="form-error" id="err-bkEmail">Please enter a valid email.</span>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="bkPhone">Phone</label>
+          <input type="tel" id="bkPhone" name="phone" required placeholder="07xxx xxxxxx">
+          <span class="form-error" id="err-bkPhone">Please enter a phone number.</span>
+        </div>
+        <div class="form-group">
+          <label for="bkService">Service</label>
+          <select id="bkService" name="service" required>
+            <option value="" disabled selected>Choose a service…</option>
+            <optgroup label="Cutting">
+              <option>Cut &amp; Blow Dry (Ladies) — from £56</option>
+              <option>Men's Wash &amp; Cut — from £35</option>
+              <option>Students Female (under 25) — from £45</option>
+              <option>Students Male (under 25) — from £31</option>
+              <option>Children — from £30</option>
+            </optgroup>
+            <optgroup label="Styling">
+              <option>Blow Dry — from £30</option>
+            </optgroup>
+            <optgroup label="Treatments">
+              <option>Hair Treatments — from £17</option>
+              <option>True Keratin Professional — from £160</option>
+            </optgroup>
+            <optgroup label="Colour">
+              <option>Full Head Highlights — from £136</option>
+              <option>Half Head Highlights — from £93</option>
+              <option>Partial Highlights — from £62</option>
+              <option>Full Head Tint — from £55</option>
+              <option>Re-growth Tint — from £50</option>
+              <option>Fashion Colour — £62</option>
+              <option>Toner — £23</option>
+              <option>Colour Correction — from £100</option>
+              <option>Colour Correction Consultation — Free</option>
+            </optgroup>
+          </select>
+          <span class="form-error" id="err-bkService">Please choose a service.</span>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="bkDate">Preferred date</label>
+          <input type="date" id="bkDate" name="date" required>
+          <span class="form-error" id="err-bkDate">Please pick a date.</span>
+        </div>
+        <div class="form-group">
+          <label for="bkTime">Preferred time</label>
+          <input type="time" id="bkTime" name="time" required>
+          <span class="form-error" id="err-bkTime">Please pick a time.</span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="bkNotes">Notes (optional)</label>
+        <textarea id="bkNotes" name="notes" rows="3" placeholder="Anything we should know before your visit?"></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary btn-lg">Request Appointment</button>
+        <p class="form-hint">We'll confirm your slot by WhatsApp or email — this isn't an instant booking.</p>
+      </div>
+
+      <div class="form-confirmation" id="formConfirmation" role="status" aria-live="polite">
+        <i class="fa-solid fa-circle-check"></i>
+        <div>
+          <strong>Request sent — thank you!</strong>
+          <p>We've noted your details. Tap below to send us the same request directly on WhatsApp for a faster reply.</p>
+          <a href="#" id="waConfirmLink" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+            <i class="fa-brands fa-whatsapp"></i> Send via WhatsApp
+          </a>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FIND US / CONTACT ============ -->
+<section class="section" id="find-us">
+  <div class="section-inner">
+    <p class="kicker">Find Us</p>
+    <h2>Find us in Reading</h2>
+
+    <div class="contact-grid">
+      <div class="contact-details">
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-location-dot"></i> 11 London Rd, Reading RG1 5BJ <em>(example location)</em></li>
+          <li><i class="fa-solid fa-phone"></i> <a href="tel:+447400000000">07400 000000</a></li>
+          <li><i class="fa-solid fa-envelope"></i> <a href="mailto:hello@examplebusiness.co.uk">hello@examplebusiness.co.uk</a></li>
+        </ul>
+
+        <table class="hours-table" id="contact">
+          <tbody>
+            <tr><td>Monday</td><td>10:00–15:00</td></tr>
+            <tr><td>Tuesday – Wednesday</td><td>10:00–19:00</td></tr>
+            <tr><td>Thursday</td><td>11:00–21:00</td></tr>
+            <tr><td>Friday</td><td>10:00–19:00</td></tr>
+            <tr><td>Saturday</td><td>09:00–18:00</td></tr>
+            <tr><td>Sunday</td><td>Closed</td></tr>
+          </tbody>
+        </table>
+
+        <div class="contact-ctas">
+          <a href="https://maps.google.com/?q=11+London+Rd+Reading+RG1+5BJ" target="_blank" rel="noopener" class="btn btn-outline">
+            <i class="fa-solid fa-diamond-turn-right"></i> Get Directions
+          </a>
+          <a href="https://wa.me/447400000000" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+            <i class="fa-brands fa-whatsapp"></i> Message on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="map-placeholder" aria-hidden="true">
+        <i class="fa-solid fa-map-location-dot"></i>
+        <span>Map placeholder</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <a href="#home" class="logo footer-logo">Example <span>Business</span></a>
+      <p class="footer-tagline">Precision cuts, lived-in colour, personal care — in the heart of Reading.</p>
+    </div>
+
+    <nav class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#products">Products</a>
+      <a href="#find-us">Find Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer-social">
+      <span>@example_business</span>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Example Business. All rights reserved. Placeholder site for design purposes.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
